@@ -1,0 +1,52 @@
+
+.somo{
+    width: 70%;
+    margin-left: 16%;
+}
+
+.titulo{
+    margin-top: 3%;
+}
+
+.clientes_contenedor{
+    background: #fff;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 3%;
+    padding: 5%;
+    
+}
+.cards .card{
+    display:contents;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+  
+    border: 5px solid #fff;
+    border-radius: 50%;
+    
+}
+
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #121111;
+    margin: 2%;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}

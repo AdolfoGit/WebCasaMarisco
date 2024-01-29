@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(241, 234, 234, 0.944);
+    color: black;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .nav-links li {
+   
+    font-size: 14px;
+  }
+  .link{
+    color: black;
+  }
+  .nav-links a {
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #0f0faf; 
+  }
+  .login-button {
+    margin-left: auto; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar sobre el botón */
+  }
+  
+  
+  
+  
+  
